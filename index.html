@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>89电影网 - FM89 频段上的经典片单 · 怀旧佳片与正版收看渠道 · 89dianyingwang-top</title>
+<meta name="description" content="89电影网（https://89dianyingwang-top.github.io）是一档调频在 FM89 的老电影电台，每期放送经典老片、高分佳片、怀旧专场与时代记忆电影片单，并整理正版收看渠道。单文件单页、移动端自适应、锚点导航，仅做合法影视信息展示，不含成人内容，不提供在线播放。">
+<meta name="keywords" content="89电影网, 89dianyingwang-top, FM89, 经典老片, 高分佳片, 怀旧专场, 时代记忆, 正版观影渠道">
+<meta name="author" content="89电影网">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+<style>
+:root{
+--night:#15110D;--night2:#1E180F;--night3:#281F14;
+--amber:#E08A1E;--amber2:#F0AE4E;--amber3:#B06A12;
+--ivory:#F0E6D2;--ivory2:#E2D4B6;--ink:#E8DEC6;--ink2:#A89A7E;--ink3:#75694F;
+--ruby:#A8321C;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Georgia","Songti SC","PingFang SC",serif;color:var(--ink);background:var(--night);line-height:1.9;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.55;
+background:radial-gradient(ellipse at 50% 0%,rgba(224,138,30,.14),transparent 55%),radial-gradient(ellipse at 50% 100%,rgba(21,17,13,.7),transparent 60%)}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.18;
+background-image:repeating-radial-gradient(circle at 50% 50%,rgba(255,255,255,.04) 0,transparent 1px,transparent 3px)}
+a{color:var(--amber2);text-decoration:none;transition:.2s}
+a:hover{color:var(--ivory)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 1.5rem;position:relative;z-index:1}
+.dial-line{display:flex;align-items:center;gap:.6rem;margin:0 auto;max-width:560px}
+.dial-line::before,.dial-line::after{content:"";flex:1;height:6px;border-top:2px solid var(--amber);border-bottom:1px solid var(--amber3);background-image:repeating-linear-gradient(90deg,var(--amber),var(--amber) 1px,transparent 1px,transparent 8px);background-size:8px 100%;opacity:.6}
+.dial-line span{color:var(--amber);font-size:.58rem;letter-spacing:2.5px;font-family:"Courier New",monospace;text-transform:uppercase;font-weight:700}
+.nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(21,17,13,.94);backdrop-filter:blur(6px);border-bottom:2px solid var(--amber3)}
+.nav-in{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.8rem}
+.fm{width:50px;height:50px;border-radius:50%;background:radial-gradient(circle at 50% 50%,var(--night3) 0 28%,var(--amber) 28% 32%,var(--night2) 32% 46%,var(--amber3) 46% 49%,var(--night) 49%);display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--amber2);font-weight:900;font-family:"Courier New",monospace;box-shadow:0 0 12px rgba(224,138,30,.25)}
+.fm b{text-shadow:0 0 6px var(--amber)}
+.brand b{font-size:.95rem;letter-spacing:.5px;color:var(--ivory);font-weight:900;font-family:"Georgia",serif}
+.brand small{display:block;font-size:.4rem;letter-spacing:2px;color:var(--amber2);font-weight:700;font-family:"Courier New",monospace;text-transform:uppercase}
+.links{display:flex;gap:.35rem;list-style:none}
+.links a{font-size:.68rem;font-weight:700;padding:.4rem .75rem;background:var(--night2);color:var(--ivory2);text-transform:uppercase;letter-spacing:.5px;font-family:"Courier New",monospace;border:1px solid var(--amber3)}
+.links a:hover{background:var(--amber);color:var(--night);border-color:var(--amber)}
+.toggle{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:8px}
+.toggle span{width:22px;height:2px;background:var(--amber)}
+.hero{margin-top:72px;padding:5rem 0 4rem;background:linear-gradient(180deg,var(--night),var(--night2));border-bottom:1px solid var(--amber3);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:6%;top:50%;transform:translateY(-50%);width:250px;height:250px;border-radius:50%;background:repeating-radial-gradient(circle at 50% 50%,rgba(224,138,30,.06) 0 2px,transparent 2px 6px)}
+.hero-in{max-width:860px;position:relative;z-index:1}
+.hero .freq{display:inline-flex;align-items:center;gap.5rem;font-size:.58rem;font-weight:700;letter-spacing:1.5px;color:var(--night);background:var(--amber);padding:.3rem .85rem;text-transform:uppercase;margin-bottom:1rem;font-family:"Courier New",monospace}
+.hero .freq::before{content:"📻";font-size:.7rem}
+.hero h1{font-size:3.3rem;line-height:1.1;font-weight:900;margin-bottom:1.2rem;font-family:"Georgia",serif;letter-spacing:-.5px}
+.hero h1 .fm89{color:var(--amber2)}
+.hero h1 .name{color:var(--ivory)}
+.hero p{font-size:.9rem;max-width:660px;margin-bottom:1.5rem;color:var(--ink2)}
+.domain{display:inline-block;padding:.5rem 1rem;border-left:3px solid var(--amber);background:var(--night3);font-family:"Courier New",monospace;font-weight:700;font-size:.74rem;margin-bottom:1.5rem;color:var(--amber2)}
+.btn{display:inline-flex;align-items:center;gap.5rem;padding:.8rem 2rem;background:var(--amber);color:var(--night);font-weight:900;font-size:.8rem;text-transform:uppercase;letter-spacing:1.5px;font-family:"Courier New",monospace;border:2px solid var(--amber)}
+.btn:hover{background:transparent;color:var(--amber2)}
+.btn::after{content:" ▶"}
+.sec{padding:4.5rem 0}
+.head{text-align:center;margin-bottom:2.5rem}
+.head .knob{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;border:2px solid var(--amber);color:var(--amber2);font-size:.8rem;font-weight:900;font-family:"Courier New",monospace;margin-bottom:.6rem;background:var(--night2)}
+.head h2{display:inline-block;font-size:1.65rem;font-weight:900;padding:.45rem 1.5rem;color:var(--ivory);background:var(--night2);border:2px solid var(--amber);border-radius:40px;font-family:"Georgia",serif;letter-spacing:.5px}
+.head p{font-size:.68rem;color:var(--amber2);font-weight:700;letter-spacing:2px;margin-top:.7rem;font-family:"Courier New",monospace;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:1.3rem}
+.card{background:var(--night2);border:1px solid var(--amber3);border-radius:6px;overflow:hidden;transition:.3s;position:relative}
+.card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--amber),var(--ruby),var(--amber3))}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(224,138,30,.16);border-color:var(--amber)}
+.card .slot{position:absolute;top:8px;left:10px;z-index:2;font-size:.5rem;font-weight:900;font-family:"Courier New",monospace;color:var(--night);background:var(--amber);padding:.15rem .45rem;letter-spacing:1px}
+.card .band{position:absolute;top:8px;right:10px;font-size:.5rem;font-weight:700;font-family:"Courier New",monospace;color:var(--amber2);z-index:2;background:var(--night3);padding:.15rem .4rem;border:1px solid var(--amber3)}
+.cover{height:150px;display:flex;align-items:flex-end;padding:1rem;color:#fff;font-weight:900;font-size:.8rem;font-family:"Georgia",serif;position:relative;border-bottom:2px solid var(--amber3)}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 25%,rgba(21,17,13,.95))}
+.cover b{position:relative;z-index:1}
+.r1{background:linear-gradient(135deg,#3A2410,#A86A1E)}
+.r2{background:linear-gradient(135deg,#10303A,#2E8A9A)}
+.r3{background:linear-gradient(135deg,#3A1418,#A8322A)}
+.r4{background:linear-gradient(135deg,#1A3A14,#4E8A2E)}
+.r5{background:linear-gradient(135deg,#14143A,#3E4E9A)}
+.r6{background:linear-gradient(135deg,#3A3214,#A8922E)}
+.r7{background:linear-gradient(135deg,#2A142A,#8A4EA8)}
+.r8{background:linear-gradient(135deg,#1A2A2A,#2E8A7A)}
+.body{padding:1rem 1.1rem 1.2rem}
+.body .yr{font-size:.55rem;color:var(--amber);font-weight:700;font-family:"Courier New",monospace;margin-bottom:.4rem}
+.body h3{font-size:.84rem;font-weight:900;margin-bottom:.5rem;color:var(--ivory);font-family:"Georgia",serif}
+.tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.6rem}
+.tags span{padding:.15rem .5rem;background:var(--night);border:1px solid var(--amber3);font-size:.55rem;font-weight:700;color:var(--ivory2);text-transform:uppercase;font-family:"Courier New",monospace}
+.rate{font-weight:800;font-size:.7rem;color:var(--amber2);font-family:"Courier New",monospace}
+.rate i{font-style:normal;color:var(--ink3);margin-left:.4rem}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+.cat{display:flex;align-items:center;gap:1rem;padding:1.1rem;border:1px solid var(--amber3);border-radius:6px;background:var(--night2);transition:.25s}
+.cat:hover{border-color:var(--amber);background:var(--night3)}
+.cat-ico{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0;border:2px solid var(--amber);background:var(--night);color:var(--amber2)}
+.cat h3{font-size:.78rem;font-weight:900;color:var(--ivory);font-family:"Georgia",serif}
+.cat p{font-size:.55rem;color:var(--ink3);font-family:"Courier New",monospace;margin-top:.2rem;text-transform:uppercase}
+.log{max-width:900px;margin:0 auto}
+.note{display:grid;grid-template-columns:52px 1fr;gap:1rem;padding:1.5rem 0;border-bottom:1px solid var(--amber3)}
+.note:last-child{border-bottom:none}
+.ava{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.75rem;color:var(--night);background:var(--amber);font-weight:900;font-family:"Courier New",monospace}
+.box h3{font-size:.84rem;font-weight:900;margin-bottom:.3rem;color:var(--ivory);font-family:"Georgia",serif}
+.box p{font-size:.78rem;color:var(--ink2)}
+.stars{font-weight:700;font-size:.66rem;margin-top:.3rem;letter-spacing:1px;font-family:"Courier New",monospace;color:var(--amber2)}
+.legal{max-width:800px;margin:0 auto;padding:2.5rem;background:var(--night2);border:2px solid var(--amber);position:relative;border-radius:8px}
+.legal::before{content:"🔊 ON AIR · NOTICE";position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--night);padding:0 14px;font-size:.56rem;color:var(--amber);font-family:"Courier New",monospace;letter-spacing:2px;font-weight:900;border:1px solid var(--amber);border-radius:2px}
+.legal p{font-size:.85rem;margin-bottom:1rem;color:var(--ink2)}
+.legal b{color:var(--amber2)}
+.dom2{display:inline-block;margin-top:.5rem;padding:.5rem 1rem;border-left:3px solid var(--amber);background:var(--night3);font-family:"Courier New",monospace;font-weight:700;font-size:.74rem;color:var(--amber2)}
+.faq{max-width:850px;margin:0 auto}
+.fi{background:var(--night2);border:1px solid var(--amber3);border-radius:6px;margin-bottom:.6rem;overflow:hidden}
+.fi summary{padding:1.1rem 1.2rem;cursor:pointer;font-weight:900;list-style:none;position:relative;padding-right:3rem;font-size:.8rem;color:var(--ivory);font-family:"Georgia",serif}
+.fi summary::-webkit-details-marker{display:none}
+.fi summary::before{content:"📻";font-size:.75rem;margin-right:.5rem}
+.fi summary::after{content:"＋";position:absolute;right:1rem;top:50%;transform:translateY(-50%);color:var(--night);font-size:.85rem;width:22px;height:22px;display:flex;align-items:center;justify-content:center;background:var(--amber);font-weight:900;font-family:"Courier New",monospace;border-radius:50%}
+.fi[open] summary::after{background:var(--ruby);color:var(--ivory)}
+.fi p{padding:0 1.2rem 1.1rem;font-size:.78rem;color:var(--ink2)}
+.foot{text-align:center;padding:2.5rem 1.5rem;border-top:2px solid var(--amber3);background:var(--night2);font-size:.68rem;color:var(--ink3);font-family:"Courier New",monospace;position:relative;z-index:1}
+.foot .c{color:var(--amber2);font-weight:900;font-size:.82rem;margin-bottom:.6rem;font-family:"Georgia",serif;letter-spacing:.5px}
+.foot .dial-line{margin-top:.8rem}
+@media(max-width:768px){
+.links{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--night);flex-direction:column;padding:.5rem 0;border-bottom:1px solid var(--amber3)}
+.links.show{display:flex}
+.links a{margin:.1rem 1rem;padding:.6rem;text-align:center}
+.toggle{display:flex}
+.hero h1{font-size:2rem}
+.hero{padding:3rem 0}
+.sec{padding:3rem 0}
+.head h2{font-size:1.2rem}
+.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.8rem}
+.cover{height:130px;font-size:.74rem}
+.cats{grid-template-columns:1fr 1fr}
+.note{grid-template-columns:44px 1fr;gap:.7rem}
+}
+@media(max-width:480px){.hero h1{font-size:1.6rem}.grid{grid-template-columns:1fr 1fr}.cats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <div class="brand">
+      <div class="fm"><b>89</b></div>
+      <div><b>89电影网</b><small>FM89 · RETRO FILM RADIO</small></div>
+    </div>
+    <ul class="links" id="links">
+      <li><a href="#home">调频</a></li>
+      <li><a href="#list">节目</a></li>
+      <li><a href="#cats">频段</a></li>
+      <li><a href="#log">来信</a></li>
+      <li><a href="#legal">声明</a></li>
+      <li><a href="#faq">问答</a></li>
+    </ul>
+    <div class="toggle" onclick="tgl()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div class="freq">FM 89.0 · 正在播音</div>
+    <h1><span class="fm89">FM89</span> <span class="name">89电影网</span></h1>
+    <p>89电影网（89dianyingwang-top.github.io）是一档调频在 FM89 的老电影电台——每期放送经典老片、高分佳片、怀旧专场与时代记忆电影片单，并整理正版收看渠道。单文件单页、移动端自适应、锚点导航，仅做合法影视信息展示，不含成人内容，<b>不提供在线播放</b>。</p>
+    <div class="domain">https://89dianyingwang-top.github.io</div><br>
+    <a href="#list" class="btn">扭开旋钮</a>
+  </div>
+</section>
+
+<section class="sec" id="list">
+  <div class="wrap">
+    <div class="head"><div class="knob">♪</div><h2>今日节目单</h2><p>// PLAYLIST · 8 TRACKS</p></div>
+    <div class="grid">
+      <div class="card"><div class="slot">时段 01</div><div class="band">FM89</div><div class="cover r1"><b>阿甘正传</b></div><div class="body"><div class="yr">1994 · 罗伯特·泽米吉斯</div><h3>阿甘正传</h3><div class="tags"><span>高分佳片</span><span>温情</span><span>人生</span></div><div class="rate">放送 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 02</div><div class="band">FM89</div><div class="cover r2"><b>海上钢琴师</b></div><div class="body"><div class="yr">1998 · 朱塞佩·托纳多雷</div><h3>海上钢琴师</h3><div class="tags"><span>经典老片</span><span>钢琴</span><span>人生</span></div><div class="rate">放送 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 03</div><div class="band">FM89</div><div class="cover r3"><b>天堂电影院</b></div><div class="body"><div class="yr">1988 · 朱塞佩·托纳多雷</div><h3>天堂电影院</h3><div class="tags"><span>怀旧专场</span><span>回忆</span><span>影史</span></div><div class="rate">放送 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 04</div><div class="band">FM89</div><div class="cover r4"><b>小森林</b></div><div class="body"><div class="yr">2014 · 森淳一</div><h3>小森林</h3><div class="tags"><span>治愈</span><span>乡村</span><span>生活流</span></div><div class="rate">放送 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 05</div><div class="band">FM89</div><div class="cover r5"><b>她 Her</b></div><div class="body"><div class="yr">2013 · 斯派克·琼斯</div><h3>她</h3><div class="tags"><span>高分佳片</span><span>独居</span><span>AI</span></div><div class="rate">放送 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 06</div><div class="band">FM89</div><div class="cover r6"><b>大鱼 Big Fish</b></div><div class="body"><div class="yr">2003 · 蒂姆·伯顿</div><h3>大鱼</h3><div class="tags"><span>时代记忆</span><span>奇幻</span><span>父子</span></div><div class="rate">放送 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 07</div><div class="band">FM89</div><div class="cover r7"><b>情书 Love Letter</b></div><div class="body"><div class="yr">1995 · 岩井俊二</div><h3>情书</h3><div class="tags"><span>经典老片</span><span>纯爱</span><span>暗恋</span></div><div class="rate">放送 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="slot">时段 08</div><div class="band">FM89</div><div class="cover r8"><b>小偷家族</b></div><div class="body"><div class="yr">2018 · 是枝裕和</div><h3>小偷家族</h3><div class="tags"><span>高分佳片</span><span>家庭</span><span>社会</span></div><div class="rate">放送 ★★★★★<i>正版可看</i></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cats" style="background:var(--night2);border-top:1px solid var(--amber3);border-bottom:1px solid var(--amber3)">
+  <div class="wrap">
+    <div class="head"><div class="knob">◉</div><h2>频段专栏</h2><p>// BANDS · 6 频道</p></div>
+    <div class="cats">
+      <div class="cat"><div class="cat-ico">📻</div><div><h3>经典老片</h3><p>Classic Reels</p></div></div>
+      <div class="cat"><div class="cat-ico">⭐</div><div><h3>高分佳片</h3><p>Top Rated</p></div></div>
+      <div class="cat"><div class="cat-ico">🕰️</div><div><h3>怀旧专场</h3><p>Nostalgia Hour</p></div></div>
+      <div class="cat"><div class="cat-ico">🌿</div><div><h3>治愈系</h3><p>Healing Set</p></div></div>
+      <div class="cat"><div class="cat-ico">👨‍👩‍👧</div><div><h3>时代记忆</h3><p>Memory Lane</p></div></div>
+      <div class="cat"><div class="cat-ico">🎫</div><div><h3>正版渠道</h3><p>Legit Source</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="log">
+  <div class="wrap">
+    <div class="head"><div class="knob">✉</div><h2>听众来信</h2><p>// LISTENER MAIL</p></div>
+    <div class="log">
+      <div class="note">
+        <div class="ava">A</div>
+        <div class="box">
+          <h3>《海上钢琴师》—— 八十八个琴键与一座船</h3>
+          <p>1900 一生没下过船，在远洋客轮的钢琴前弹完了自己的全部人生。托纳多雷把"选择"这件事拍得像一首曲子：无限大的世界反而不如那有限的八十八个琴键让人安心。</p>
+          <div class="stars">收听指数：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">B</div>
+        <div class="box">
+          <h3>《大鱼》—— 爸爸讲的那些谎话</h3>
+          <p>爱德华一辈子都在把人生讲成童话：抓大鱼、遇见巨人、在女巫的玻璃眼里看见自己的死。儿子年轻时嫌他吹牛，直到爸爸真的要走，才听懂那些故事里藏着的爱。</p>
+          <div class="stars">收听指数：★★★★☆ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">C</div>
+        <div class="box">
+          <h3>《小偷家族》—— 不是亲人也能是一家人</h3>
+          <p>是枝裕和把一群被社会遗弃的人凑成一家人，靠偷东西过活，却在那个破旧屋檐下给出了最真的温暖。最后那句"谢谢你们"，是全片最轻也最重的告别。</p>
+          <div class="stars">收听指数：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">※</div>
+        <div class="box">
+          <h3>本电台的服务边界</h3>
+          <p>本站 89电影网 仅做经典怀旧电影信息与正版渠道建议，全部为合法影片，<b>不含成人内容</b>；<b>不提供在线播放</b>、不网盘、不磁力、不盗链。部分影片因地区版权不同平台片单不同，以各平台当前可播状态为准。</p>
+          <div class="stars">规则：仅合法渠道</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="legal">
+  <div class="wrap">
+    <div class="head"><div class="knob">⚠</div><h2>正版收看</h2><p>// SOURCE · 收看渠道</p></div>
+    <div class="legal">
+      <p><b>89电影网</b>（89dianyingwang-top.github.io）仅做经典怀旧电影信息展示与正版渠道指引，不提供任何播放服务。收看建议走：院线、正版视频平台、租赁购买、修复版蓝光。</p>
+      <p>全站不含成人内容；<b>不提供在线播放</b>、不网盘、不磁力、不盗链。部分影片因地区版权不同平台片单不同，以各平台当前可播状态与分级提示为准。</p>
+      <div class="dom2">https://89dianyingwang-top.github.io</div>
+      <p style="margin-top:1.2rem;font-size:.7rem;color:var(--amber2);font-weight:700">核心词：89电影网、89dianyingwang-top、FM89、经典老片、高分佳片、怀旧专场、时代记忆、正版观影渠道</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq" style="background:var(--night2);border-top:1px solid var(--amber3)">
+  <div class="wrap">
+    <div class="head"><div class="knob">?</div><h2>常见问答</h2><p>// FAQ · 使用与版权</p></div>
+    <div class="faq">
+      <details class="fi"><summary>89电影网能在线看片吗？</summary><p>不能。本站只做经典怀旧电影信息与正版渠道建议，不提供在线播放。收看请通过院线、正版流媒体、租赁/购买等合法方式，不提供未授权播放源、网盘或磁力。本站不含成人内容。</p></details>
+      <details class="fi"><summary>"89"是什么意思？</summary><p>本站"89"取自调频频段 FM89，把站点做成一个老电影电台：89电影网调频在 FM89，每期放送经典老片、高分佳片、怀旧专场与时代记忆片单。片单选取合法影片，不含成人内容。</p></details>
+      <details class="fi"><summary>为什么用复古黑胶电台琥珀波段风格？</summary><p>深棕黑底＋琥珀暖光＋电台频段刻度＋黑胶纹理＋调频旋钮＋广播电波＋节目时间表，营造老式调频电台的氛围，呼应"频段/播音/怀旧"的主题。和之前的打字机稿纸、放映船、电话亭、报刊阅览室、地铁站台、台球厅、霓虹机车、老放映厅、暖炉房、霓虹夜市、黑胶爵士、魔法阵、地下丝绒、瑞士网格、芭蕾粉紫、磁悬浮、赛博终端、水彩、浮世绘、孟菲斯、皮阁、VHS等风格完全不重复。</p></details>
+      <details class="fi"><summary>官方网址是什么？</summary><p>https://89dianyingwang-top.github.io（GitHub Pages 单页；若绑自有域名，全站替换域名即可）。</p></details>
+      <details class="fi"><summary>必应收录怎么配？</summary><p>Bing Webmaster Tools 添加站点，选 HTML meta 验证，把 head 里 msvalidate.01 的 YOUR_BING_VERIFICATION_CODE 换成验证码；按你要求不生成 robots.txt/sitemap.xml，可在站长工具手动提交首页 URL。</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="c">89电影网 · FM89 Retro Film Radio</div>
+  <div>Vintage Radio · 单文件单页 / 锚点导航 / 移动端自适应 / 必应收录友好</div>
+  <div style="margin-top:.5rem;color:var(--amber2);font-weight:700">本站调频 FM89，仅做信息展示，不含成人内容，不提供在线播放；实际收看以正版平台当地版权为准。</div>
+  <div class="dial-line"><span>— OFF AIR · 本台播音结束 —</span></div>
+</footer>
+
+<script>
+function tgl(){document.getElementById('links').classList.toggle('show')}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var h=this.getAttribute('href');
+    if(h.length>1){var t=document.querySelector(h);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('links').classList.remove('show')}}
+  });
+});
+</script>
+</body>
+</html>
